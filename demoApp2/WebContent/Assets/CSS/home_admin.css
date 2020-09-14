@@ -1,0 +1,255 @@
+@CHARSET "ISO-8859-1";
+h1
+  {
+      text-align: center;
+  }
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin : 0px;
+    background: url(../images/1500-0-.jpg);
+    background-size: cover;
+   
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* .rest
+  {
+    background: url(images/Vendor-Management-Feature-Image-1280x720.jpg);
+  } */
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#C8C8C8;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  
+  
+  #form_1 input[type=text], input[type=password],input[type=textarea],input[type=tel],input[type=date],
+  #form_2 input[type=date], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+#form_1 input[type=text]:focus ,input[type=textarea]:focus,input[type=date]:focus,
+#form_2 input[type=number]:focus ,input[type=date]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.container button:hover {
+  opacity:1;
+}
+  .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  padding-top: 2%;
+  padding-left : 10%;
+  padding-right : 10%;
+  padding-bottom : 10%;
+}
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  
+  
+#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9
+ {
+ margin-top:5%;
+ margin-left:5%;
+margin-right:5%;
+margin-bottom:5%;
+ 
+ }
+ 
+   #mytable{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+
+width : 100%;
+
+
+}
+
+.rest td, .rest th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.rest tr:nth-child(even){background-color: #f2f2f2;}
+
+.rest tr:hover {background-color: #ddd;}
+
+
+
+.rest th {
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+ #filter_input {
+  margin-right: 2%;
+  margin-bottom: 1%;
+  width: 180px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  height: 34px;
+}
+.pagesControllers {
+  display: inline-block;
+}
+
+.pagesControllers button {
+  color: black;
+  float: left;
+  padding: 6px 10px;
+  border : 10%;
+  text-decoration: none;
+}
+.pagesControllers button:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+.rest select {
+  margin-right: 2%;
+  margin-bottom: 1%;
+  width: 180px;
+  font-size: 16px;
+  border: 1px solid #CCC;
+  height: 34px;
+ 
+  -moz-appearance: none;
+  
+}
+
+
+/* CAUTION: Internet Explorer hackery ahead */
+
+
+select::-ms-expand {
+    display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+}
+
+/* Target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background: none\9;
+        padding: 5px\9;
+    }
+}
+
+
+
+ .btn_acc, .btn_extend
+  {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  .btn_acc:hover, .btn_extend:hover {
+    background-color: #ff80c0;
+  }
+  
+  .btn_rej, .btn_close
+  {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  .btn_rej:hover, .btn_close:hover {
+    background-color: #ff80c0;
+  }
+
+  
